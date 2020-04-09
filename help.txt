@@ -1,0 +1,4 @@
+
+.instagram.com	TRUE	/	FALSE	1586576707	sessionid	32895277852%3AIrLFxZiknKWMsN%3A5
+.instagram.com	TRUE	/	FALSE	1586576775	sessionid	32895277852%3AIrLFxZiknKWMsN%3A5
+.instagram.com	TRUE	/	FALSE	1586592858	sessionid	32895277852%3AIrLFxZiknKWMsN%3A5
