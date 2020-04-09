@@ -6,9 +6,12 @@
 	<title>Insta Saver</title>
 	<link href="css/style.css" rel="stylesheet"/>
 	<style>
+	hr.new1 {
+  border-top: 1px solid black;
+}
 </style>
 
-	<link rel="icon" type="image/x-icon" href="logo.png">
+	<link rel="icon" type="image/x-icon" href="css/favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,56 +21,38 @@
 	<meta name="keywords" content="keywords">
 		<style type="text/css">
 body{
-	font-family:Tahoma, Geneva, sans-serif;
+	font-family:yekan,Tahoma, Geneva, sans-serif;
 	
 	font-size:12px;
 }
-a.nav-link{
-    color: #aaa !important;
+
+    @font-face {
+  font-family: yekan;
+  src: url('fonts/yekan-regular.eot');
+  src: url('fonts/yekan-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/yekan-regular.woff') format('woff'),
+       url('fonts/yekan-regular.ttf') format('truetype');
+  font-weight: bold;
+
 }
-a.active{
-    color: #666 !important;
-}
-li.nav-item img {
-    height: 39px;
-}
-.logo-t {
-    float: left;
-}
+
 </style>
 </head>
-<body>
+<body style="background-image:url(back.jpg);">
+ 
 	<div class="container">
-	    <div class="logo-t">
-<img src="logo.png" style="height: 40px;">
-</div>
-	    <ul class="nav nav-tabs"><!-----
-  <li class="nav-item">
-    <img src="logo.png" id="saver">
-  </li>
-  ----->
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Download</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Our channel</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Contact us</a>
-  </li>
-</ul>
-
-
 		<center>
+			<h2>Story Saver</h2><br>
+				<div class="alert alert-warning alert-atas">
+					<strong>تذکر !</strong> نام کاربری را بدون @ وارد کنید 
+				</div>
 					<div class="form-group acc-settings">
 						<form id="myForm" action="proses.php" method="POST">
 							<div class="input-group">
 								<span class="input-group-addon"><i class="fa fa-at"></i></span>
-							<input type="text" name="uname" id=pengguna class="form-control input-lg" autofocus="on" placeholder="Enter the username without @ and then press enter..." autocomplete="off">
+							<input type="text" name="uname" id=pengguna class="form-control input-lg" autofocus="on" placeholder="Enter Username" autocomplete="off">
 							</div><br>
-							<!------
-							<input id="submit" class="btn btn-primary btn-lg btn-block" name="Submit" value="DOWNLOAD" type="submit"/>
-							------->
+							<input id="submit" class="btn btn-primary btn-lg btn-block" name="Submit" value="دریافت" type="submit"/>
 							</form>
 							</div>
 							<br>
@@ -88,13 +73,10 @@ li.nav-item img {
 			</div>	
 			
 				
-<style id="__jsx-2567911457">
-footer.jsx-2567911457 {
-	position: absolute;
-	width: 100%;
-    padding: 10px 20px 0px 20px;
+<style id="__jsx-2567911457">footer.jsx-2567911457 {
+	
+    padding: 0 20px 30px 20px;
     text-align: center;
-    bottom: 20px;
 }
 
 .navigation.jsx-2567911457 {
@@ -126,7 +108,7 @@ footer.jsx-2567911457 {
 .social.jsx-2567911457 {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;footer.jsx-2567911457
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -147,27 +129,40 @@ footer.jsx-2567911457 {
     color: #959595;
     font-size: 1.2rem;
 }
-.new1{
-    color: #aaa !important;
-}
-.copyright{
-    width: 100% !important;
-    margin: 0 auto;
-    text-align: center;
-}
+
 </style>
 
 <br><br><br>
 	
+	<hr class="new1">
 		
 <footer class="jsx-2567911457">
-
-
+    <nav class="jsx-2567911457 navigation"><a href="/" class="jsx-2567911457">Home</a><a class="jsx-2567911457" href="/privacy">Privacy Policy</a><a href="mailto:yourmail@domain.com" class="jsx-2567911457">Contact</a></nav>
+    <ul class="jsx-2567911457 social">
+        <li class="jsx-2567911457">
+            <a href="#Twitter" target="_blank" rel="noopener noreferrer" class="jsx-2567911457 twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+                    <title>Twitter</title>
+                    <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+                </svg>
+            </a>
+        </li>
+        <li class="jsx-2567911457">
+            <a href="#instagram" target="_blank" rel="noopener noreferrer" class="jsx-2567911457 instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+                    <title>Instagram</title>
+                    <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+                    <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+                    <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+                </svg>
+            </a>
+        </li>
+    </ul><span class="jsx-2567911457 copyright">Copyright ©<!-- -->2020</span>
 <div class="jsx-2685939921">
 
 </div>
 				  <div class="container">
-<span class="jsx-2567911457 copyright"><a href="#saver"><img src="logo.png" style="height: 40px;"></a></span>
+			
 		  </div>
 		</footer>
 </body>
